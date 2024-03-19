@@ -1,0 +1,9 @@
+// possible improvements
+1. multi filter
+2. daterange filter
+3. estimate less than 
+4. custom filters for each key
+5. clear filters - clearing values from input fields
+6. UI improvements
+7. Indentation
+8. Sorting on the basis of type

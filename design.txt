@@ -1,0 +1,76 @@
+data structure
+    Localstorage = zustand state
+    
+    tasklist map
+        task array
+            id, title, type, due date, estimate
+    task id array 
+        list of ids
+    taskTypes
+        taskType array
+            id, name, color
+========================================================================
+
+
+view
+    main container
+        tasktable
+        header - "track your time"
+        list of todos
+        an empty todo
+        filter tasks - a table like structure , key value pair
+                    - filter value
+             filter key, filter value  
+             add filter
+
+    Time Tracker Section
+         
+        total time given, remaining time needed to complete the tasks
+        Tasktypes section
+        pagination - no pagination - scrollable list - no virtual, all complete
+        create new - insert 
+
+    
+list of todos 
+Table of todos with each field editable (having edit icon, visible on hover)
+    on click of edit icon or on click of field, we will show the input field, 
+    on enter we will save the task
+    insert new button with each task
+
+    fields - 
+        title, type (show only color), due date-time, cross button (show only on hover)
+
+========================================================================
+
+
+store
+    
+        tasklist
+            initial -  empty
+            actions -
+                add [task object]
+                edit [key, value]
+                delete [id]
+                togglestatus
+
+        tasktypes
+            initial - 
+                work color green
+                home color magenta
+            actions
+                add
+
+========================================================================
+        
+
+
+adding a todo
+
+there will always be an empty todo present, it will the last in the todoIds from the store
+after adding todo,  how we will get the particular todo
+
+
+insert in between - 
+
+Add new, then there will be an empty to do added
+Added
